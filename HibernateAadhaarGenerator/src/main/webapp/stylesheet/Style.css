@@ -1,0 +1,168 @@
+/* Reset styles */
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+.card {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 455px;
+    height: 320px;
+    margin: 150px auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header {
+    display: flex;
+    border-radius: 10px 10px 0 0;
+    height: 55px;
+    margin: 5px;
+  }
+  .personal-details {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .photo {
+    margin-right: 20px;
+  }
+  
+  .photo img {
+    border-radius: 5%;
+    border: 2px solid #0f5ba9;
+    width: 110px;
+    height: 110px;
+  }
+  .qr img {
+    border-radius: 5%;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  .info .name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000305;
+  }
+  
+  .number .aadhaar-no{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .info .dob,
+  .info .gender,
+  .info .address {
+    font-size: 14px;
+    color: #666;
+  }
+  .number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+   h2{
+    margin: 0px;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .footer{
+    
+    height:70px;
+    width:100%;
+    margin-bottom: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    background-color: rgb(147, 147, 210);
+  }
+  .footer .footer-text{
+    text-align:center;
+   padding: 15px;
+
+  }
+  .form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+    width: 470px;
+    height: 200px;
+    margin: 30px auto;
+   
+  
+
+  }
+  label
+  {
+    display: flex;
+    margin: 20px;
+    
+  }
+  input{
+    display: flex;
+    height: 40px;
+    border-color: black;
+    border-radius: 7px;
+    width: 90%;
+    margin: 20px;
+  }
+  .mainform
+  {
+   
+    padding: 10px;
+    border-radius:  0 0 20px 20px;
+    box-shadow: 2px 2px 10px ;
+    background-color: white;
+  }
+.header-text 
+{
+
+  text-align: center;
+  
+}
+h3
+{
+  padding: 15px;
+  text-shadow:1px 1px 1px ;
+  background-color: rgb(149, 149, 235);
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 20px 20px 0 0 ;
+  box-shadow: 2px 2px 10px ;
+}
+.button input{
+  justify-content: center;
+  background-color: rgb(58, 50, 163);
+  border-radius: 0px;
+  font-size: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border: 3px solid black;
+  box-shadow: 2px 2px 7px;
+
+}
+.button input:hover{
+  background-color: green;
+}
+
+  
+  
